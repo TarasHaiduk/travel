@@ -186,13 +186,14 @@ my-thumbnail:hover {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/header.jpg) !important;
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/header.jpg);
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 
 header.masthead hr {
   margin-top: 30px;
@@ -313,6 +314,9 @@ header.masthead p {
   border: none;
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  margin-bottom: 10px;
+  margin-left: 20px;
+
 }
 
 .btn-xl {
@@ -408,4 +412,60 @@ header.masthead p {
 .card-text,
 .card-title {
   color: #484848 !important;
+}
+
+/* new cover fo tour Borzhava with new class back-borzhava*/
+header.back-borzhava {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../img/Borzhava.jfif);
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+header.back-borzhava hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.back-borzhava h1 {
+  font-size: 2rem;
+}
+
+header.back-borzhava p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header.back-borzhava p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.back-borzhava {
+    height: 80vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.back-borzhava h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.back-borzhava h1 {
+    font-size: 4rem;
+  }
+}
+
+/* End new cover fo tour Borzhava with new class back-borzhava*/
+
+.bg-about-tour {
+  background-color:#EBF9F6;
 }
