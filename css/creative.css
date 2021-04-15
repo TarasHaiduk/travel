@@ -511,5 +511,8 @@ header.back-borzhava p {
     background-color: white;
     display: none;
     overflow: hidden;
-  }
+  }}
 /* start color text blog */
+.cover-blog-castle {
+  background-color:#A6E77B   ;
+}
