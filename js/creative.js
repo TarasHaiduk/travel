@@ -92,3 +92,11 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+
+$(document).ready(function(){
+  $("#my-classe").click(function(){
+    $("#myt").removeClass("d-none d-sm-block");
+    
+  });
+});
