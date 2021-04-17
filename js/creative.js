@@ -111,7 +111,10 @@ $(document).ready(function(){
   });
 });
 
-
-$('dropdown').click(function(){
-    $('.nav-collapse').collapse('hide');
+$(document).ready(function(){
+  $("#navbarDropdown:visited").click(function(){
+    $('#navbarDropdown').removeClass("collapsing") 
+    .addClass("show") .getAttribute("aria-expanded") === 'true';
+    
+  });
 });
