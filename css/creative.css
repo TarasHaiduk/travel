@@ -522,13 +522,5 @@ header.back-borzhava p {
   display: inline-block; 
 } 
  nav.navbar .dropdown:hover{
-  display: block;
+  display: inline-block;
  }
-@media  (max-width: 992px){
-    nav.navbar .dropdown:hover .dropdown-menu{
-        display: none;
-    }
-}
-.show1{
-  display: block;
-}

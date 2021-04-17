@@ -105,7 +105,13 @@ $('.dropdown-toggle').dropdown();
 
 $(document).ready(function(){
   $("#navbarDropdown").click(function(){
-    $('#navbarResponsive').removeClass("bg-primary collapse collapsing") .addClass("show") .getAttribute("aria-expanded") === 'true';
+    $('#navbarResponsive').removeClass("collapsing") 
+    .addClass("show") .getAttribute("aria-expanded") === 'true';
     
   });
+});
+
+
+$('dropdown').click(function(){
+    $('.nav-collapse').collapse('hide');
 });
