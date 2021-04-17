@@ -96,7 +96,7 @@ for (i = 0; i < acc.length; i++) {
 
 $(document).ready(function(){
   $("#my-classe").click(function(){
-    $("#myt").removeClass("d-none d-lg-block ");
+    $("#myt").removeClass("d-none ");
     
   });
 });
@@ -105,7 +105,7 @@ $('.dropdown-toggle').dropdown();
 
 $(document).ready(function(){
   $("#navbarDropdown").click(function(){
-    $('#navbarResponsive') el.getAttribute("aria-expanded") === 'true';
+    $('#navbarResponsive').removeClass("bg-primary collapse collapsing") .addClass("show") .getAttribute("aria-expanded") === 'true';
     
   });
 });

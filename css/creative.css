@@ -518,11 +518,17 @@ header.back-borzhava p {
 }
 
 /* NAv bar menu for myself */
-nav.navbar .dropdown:hover>.dropdown-menu {
- display: block; 
+.dropdown:hover>.dropdown-menu {
+  display: inline-block; 
 } 
+ nav.navbar .dropdown:hover{
+  display: block;
+ }
 @media  (max-width: 992px){
     nav.navbar .dropdown:hover .dropdown-menu{
         display: none;
     }
+}
+.show1{
+  display: block;
 }
