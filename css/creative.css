@@ -516,3 +516,13 @@ header.back-borzhava p {
 .cover-blog-castle {
   background-color:#A6E77B   ;
 }
+
+/* NAv bar menu for myself */
+nav.navbar .dropdown:hover>.dropdown-menu {
+ display: block; 
+} 
+@media  (max-width: 992px){
+    nav.navbar .dropdown:hover .dropdown-menu{
+        display: none;
+    }
+}

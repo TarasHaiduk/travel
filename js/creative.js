@@ -96,7 +96,16 @@ for (i = 0; i < acc.length; i++) {
 
 $(document).ready(function(){
   $("#my-classe").click(function(){
-    $("#myt").removeClass("d-none d-sm-block");
+    $("#myt").removeClass("d-none d-lg-block ");
+    
+  });
+});
+
+$('.dropdown-toggle').dropdown();
+
+$(document).ready(function(){
+  $("#navbarDropdown").click(function(){
+    $('#navbarResponsive') el.getAttribute("aria-expanded") === 'true';
     
   });
 });
