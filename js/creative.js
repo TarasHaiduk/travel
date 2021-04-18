@@ -104,16 +104,16 @@ $(document).ready(function(){
 $('.dropdown-toggle').dropdown();
 
 $(document).ready(function(){
-  $("#navbarDropdown").click(function(){
+  $("#navbarDropdown,#navbarDropdown").click(function(){
     $('#navbarResponsive').removeClass("collapsing") 
     .addClass("show") .getAttribute("aria-expanded") === 'true';
     
   });
 });
 
-$(document).ready(function(){
-  $("#navbarDropdown:visited").click(function(){
-    $('#navbarDropdown').removeClass("collapsing") 
+$(document).visited(function(){
+  $("#navbarDropdown,#navbarDropdown2").click(function(){
+    $('#navbarDropdown,#navbarDropdown2').removeClass("collapsing") 
     .addClass("show") .getAttribute("aria-expanded") === 'true';
     
   });
